@@ -10,18 +10,18 @@ export default {
 <template>
     <div class="todo-wrapper">
         <TodoHeader/>
-        <!-- <TodoItemWrapper/> -->
     </div>
 </template>
 
 
 <style lang="scss" scoped>
     .todo-wrapper{
-        margin: 20px auto 0;
-        max-width: 630px;
+        width: 100%;
+        width: 630px !important;
         height: 635px;
         overflow: hidden;
         border-radius: 10px;
+        background-color: #fff;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 </style>

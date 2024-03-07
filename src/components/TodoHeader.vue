@@ -47,6 +47,7 @@ import TodoItemWrapper from '@/components/TodoItemWrapper.vue'
             color: #fff;
             line-height: 5px;
             font-size: 26px;
+            margin-top: 20px;
             letter-spacing: .5px;
             font-weight: 500;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -57,7 +58,7 @@ import TodoItemWrapper from '@/components/TodoItemWrapper.vue'
             background-color: #fff;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             width: 100%;
-            max-width: 500px;
+            max-width: 580px;
             height: 135px;
             margin: auto;
             border-radius: 10px;
@@ -65,7 +66,7 @@ import TodoItemWrapper from '@/components/TodoItemWrapper.vue'
             place-items: center;
             position: absolute;
             top: 40%;
-            left: 2.4%;
+            left: calc(5% - 7px);
             input{
                 width: 100%;
                 border: none;
